@@ -2,6 +2,7 @@
 (global-set-key (kbd "C-h") 'delete-backward-char)
 (global-set-key (kbd "C-c C-h") 'help-command)
 
+
 ;; scroll
 (setq scroll-step 1)
 

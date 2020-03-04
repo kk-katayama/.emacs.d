@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: York Zhao <gtdplatform@gmail.com>
+# name: typedef ll
+# key: typell
+# --
+typedef long long ll;

@@ -1,0 +1,17 @@
+# -*- mode: snippet -*-
+# name: lower_bound temp
+# key: lowerboundtemp
+# --
+//k以下である要素のうち最大のもののインデックスを求める
+int n;
+int a[110000];
+int lower_bound(int k){
+  int left=-1,right=n;
+  while(right-left>1){
+    int mid=(right+left)/2;
+    if(a[mid]<=k) left=mid;
+    else right=mid;
+  }
+  return left;
+}
+		    
